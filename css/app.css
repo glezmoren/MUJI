@@ -444,8 +444,8 @@ body {
 
 /* Cada página  */
 .index {
-  -webkit-animation: disableScroll 4s ease 1 both;
-          animation: disableScroll 4s ease 1 both;
+  -webkit-animation: disableScroll 4s ease 1;
+          animation: disableScroll 4s ease 1;
 }
 .index .fondo {
   width: 100%;
@@ -728,6 +728,7 @@ body {
   grid-row: 1/2;
 }
 .index .muji__section.consejos {
+  padding: 0;
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
@@ -860,6 +861,8 @@ body {
 .index .muji__titulo.consejos {
   width: 100%;
   text-align: left;
+  padding: 2rem 0 0 0;
+  margin: 0;
 }
 @media screen and (max-width: 1420px) {
   .index .muji__titulo.consejos {
@@ -910,6 +913,7 @@ body {
   max-height: 48vh;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0;
 }
 @media screen and (max-width: 1420px) {
   .index .muji__img.consejos {
@@ -949,7 +953,7 @@ body {
   }
 }
 .index .muji__gridtexto.consejos {
-  margin: 0 0 0 3rem;
+  margin: 0;
 }
 @media screen and (max-width: 1420px) {
   .index .muji__gridtexto.consejos {
