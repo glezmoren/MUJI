@@ -12,6 +12,12 @@ $('.main').click(function(){
 
 $('.papeleria__btn').click(function(){
 
+    let indice = $('.papeleria__btn').index( $(this) )
+
+    $('.papeleria__btn').removeClass('activado')
+    $('.papeleria__btn').eq(indice).addClass('activado')
+
+
     let clase = $(this).attr('data-clase')
     console.log( clase )
 
