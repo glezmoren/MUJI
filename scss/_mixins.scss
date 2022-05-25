@@ -1,0 +1,6 @@
+@mixin flexible( $direccion , $cortar , $justi , $verti ){
+    display: flex;
+    flex-flow:$direccion $cortar;
+    justify-content: $justi;
+    align-items: $verti;
+}

@@ -1,0 +1,112 @@
+.fanzine{
+
+.fanzine{
+    &__h3{
+        width: 100%;
+        background-color: var(--fondo-granate);
+        text-align: center;
+        color: white;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        padding: 1rem 0;
+
+        @media screen and (max-width: 800px) {
+
+            font-size: 1.2em;
+            
+        }
+
+        @media screen and (max-width: 534px) {
+
+            font-size: 1em;;
+            
+        }
+    }
+    &__caja{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        @media screen and (max-width: 800px) {
+
+           flex-direction: column;
+            
+        }
+    }
+    &__img{
+        background-color:deeppink;
+        width: 50%;
+        min-height: calc( 100vh - 200px);
+        object-fit: cover;
+        @media screen and (max-width: 800px) {
+
+            width: 100%;
+            min-height: calc( 100vh - 460px);
+             
+         }
+    }
+    &__textos{
+        max-width: 900px;
+        padding: 4rem;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        @media screen and (max-width: 800px) {
+
+            width: 96%;
+             
+         }
+    }
+
+    &__h2{
+        font-size: 2.4em;
+        font-weight: 700;
+        width: 100%;
+
+        @media screen and (max-width: 800px) {
+
+            font-size: 2.2em;
+            
+        }
+
+        @media screen and (max-width: 534px) {
+
+            font-size: 2em;;
+            
+        }
+    }
+    &__parrafos{
+        margin: 2rem 0;
+    }
+    &__p{
+        margin: 0 0 1rem 0;
+    }
+    &__datos{
+        margin: 0 0 1rem 0;
+        width: 100%;
+    }
+    &__precio{
+        margin: 0 0 2rem 0;
+        font-size: 1.6em;
+        width: 100%;
+    }
+    &__boton{
+        text-align: center;
+        background-color: var(--fondo-granate);
+        padding: 1rem 2rem;
+        color: white;
+        border-radius: 21rem;
+    }
+}
+
+
+
+
+
+
+
+    
+}

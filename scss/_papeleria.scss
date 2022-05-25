@@ -1,0 +1,114 @@
+.papeleria{
+    
+.papeleria{
+    &__h3{
+        width: 100%;
+        background-color: var(--fondo-granate);
+        text-align: center;
+        color: white;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        padding: 1rem 0;
+
+        @media screen and (max-width: 800px) {
+
+            font-size: 1.2em;
+            
+        }
+
+        @media screen and (max-width: 534px) {
+
+            font-size: 1em;;
+            
+        }
+    }
+    &__filtros{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__li{
+        text-transform: uppercase;
+        font-size: 0.9em;
+        margin: 0 1rem;
+        padding: 2rem 0;
+
+        cursor: pointer;
+        color: lightgray;
+
+        &.activado{
+            color: black;
+        }
+    }
+   
+    &__wrapper{
+        width: 90%;
+        max-width: 1600px;
+        margin: auto;
+    }
+    &__grid{
+        margin: 0 0 4rem 0;
+        display: none;
+        grid-template-columns: repeat(auto-fit, minmax( 14rem,  1fr ));
+        gap: 2rem;
+
+        &.activado{
+            display: grid;
+        }
+    }
+
+    &__section{
+    
+    }
+
+    &__img{}
+
+    &__textos{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 1rem 0;
+    }
+
+    &__h2{
+        width: 76%;
+    }
+
+
+
+    &__punto{
+        width: 0.6rem;
+        height: 0.6rem;
+        background-color: black;
+        border-radius: 50%;
+        border: 1px black solid;
+
+        &.delgado{
+            background-color: gray;
+        }
+
+        &.libreta{
+            background-color: green;
+        }
+
+        &.goma{
+            background-color: white;
+        }
+    }
+
+    &__numero{
+        margin: 0 0 0 0.6rem;
+    }
+
+    &__precio{
+        margin: 0 0 0 0.6rem;
+        
+    }
+
+}
+
+
+}
