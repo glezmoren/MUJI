@@ -10,14 +10,18 @@ $('.main').click(function(){
     $('.header__menudesplegado').removeClass('activo')
 })
 
-$('.papeleria__li').click(function(){
-    let indice = $('.papeleria__li').index( $(this) )
+$('.papeleria__btn').click(function(){
 
-    $('.papeleria__li').removeClass('activado')
-    $('.papeleria__li').eq( indice ).addClass('activado')
+    let clase = $(this).attr('data-clase')
+    console.log( clase )
 
-    $('.papeleria__grid').removeClass('activado')
-    $('.papeleria__grid').eq(indice).addClass('activado')
+    if( clase === undefined ){
+        $('.papeleria__section').removeClass('oculto')
+    }else{
+        $('.papeleria__section').addClass('oculto')
+        $('.papeleria__section.' + clase ).removeClass('oculto')
+    }
+
 })
 
 let indice = 0

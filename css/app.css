@@ -1169,6 +1169,12 @@ body {
   display: -ms-grid;
   display: grid;
 }
+.papeleria .papeleria__section {
+  display: block;
+}
+.papeleria .papeleria__section.oculto {
+  display: none;
+}
 .papeleria .papeleria__textos {
   display: -webkit-box;
   display: -ms-flexbox;
