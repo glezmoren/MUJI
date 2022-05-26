@@ -1113,6 +1113,9 @@ body {
   border-radius: 21rem;
 }
 
+.papeleria .papeleria {
+  min-height: 89vh;
+}
 .papeleria .papeleria__h3 {
   width: 100%;
   background-color: var(--fondo-granate);
