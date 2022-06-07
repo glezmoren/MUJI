@@ -34,3 +34,6 @@ I've worked on the visual redesign with figma
 * [Website](https://www.glezmoren.com/)
 * [LinkedIn](https://www.linkedin.com/in/glezmoren/)
 * [Behance](https://www.behance.net/XXXXXX)
+
+## Contact 😊
+If you want to contact me feel free to send me an email to blancagonmor@gmail.com
