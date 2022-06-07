@@ -18,3 +18,19 @@ For this project I've used:
 * SASS
 * jQuery
 * BEM methodology
+
+## Links 🔗
+
+ See live site
+- [redesign](https://glezmoren.github.io/MUJI/)
+- [original website](https://muji.es/)
+
+I've worked on the visual redesign with figma
+- [URL FIGMA](https://figma.com/)
+
+## Author 📝
+**Blanca González Moreno| Glez Moren**
+
+* [Website](https://www.glezmoren.com/)
+* [LinkedIn](https://www.linkedin.com/in/glezmoren/)
+* [Behance](https://www.behance.net/XXXXXX)
