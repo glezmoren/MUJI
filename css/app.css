@@ -506,7 +506,7 @@ body {
     padding: 0.5rem;
     border-radius: 50%;
     left: 5%;
-    top: 80%;
+    top: 70%;
   }
 }
 .index .anuncio__derecha {
@@ -520,7 +520,7 @@ body {
     padding: 0.5rem;
     border-radius: 50%;
     right: 5%;
-    top: 80%;
+    top: 70%;
   }
 }
 .index .anuncio__svg {
