@@ -26,7 +26,7 @@ For this project I've used:
 - [original website](https://muji.es/)
 
 I've worked on the visual redesign with figma
-- [URL FIGMA](https://figma.com/)
+- [URL FIGMA](https://www.figma.com/file/od1rncIxgJGo1gadTHYrre/MUJI-Redesign?node-id=0%3A1https://www.figma.com/file/od1rncIxgJGo1gadTHYrre/MUJI-Redesign?node-id=0%3A1)
 
 ## Author 📝
 **Blanca González Moreno| Glez Moren**
